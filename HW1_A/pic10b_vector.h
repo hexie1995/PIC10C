@@ -84,7 +84,8 @@ namespace Pic10b {
 		bool empty() const { return the_size == 0; }
 		size_t size() const { return the_size; }
 		size_t capacity() const { return the_capacity; }
-	
+	        
+                // this is how you set up the template 
 		T front() const { return *the_data; }
 		T back() const { return *(the_data + the_size - 1); }
 		T at(size_t index) const {
