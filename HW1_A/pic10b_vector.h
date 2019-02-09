@@ -46,6 +46,7 @@ namespace Pic10b {
 			}
 			return *this;
 		}
+//this function is the destructor
 		~vector() {
 			std::cout << "********* DESTRUCTOR CONSTRUCTOR CALLED"<<std::endl;
 			delete[] the_data;
