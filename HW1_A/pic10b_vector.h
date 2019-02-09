@@ -62,7 +62,7 @@ namespace Pic10b {
 				}
 			return *this;
 		}
-
+//this is the operator plus that operator on the element 
 		vector operator+ (const vector &rhs) const {
 			vector out(*this);
 
